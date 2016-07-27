@@ -63,7 +63,7 @@ msgid "All posts by %s"
 msgstr ""
 
 #: category.php:19
-msgid "Category Archives: %s"
+msgid "%s"
 msgstr ""
 
 #: comments.php:25

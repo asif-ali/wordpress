@@ -830,21 +830,23 @@ img.wp-smiley,
 	width: 100%;
 }
 
-.site-header .site-title:hover {
+/*.site-header .site-title:hover {
 	text-decoration: underline;
-}
+}*/
 
 .site-title {
-	font-size: 60px;
+	font-size: 80px;
 	font-weight: bold;
 	line-height: 1;
 	margin: 0;
 	padding: 58px 0 10px;
+	float: right;
 }
 
 .site-description {
-	font: 300 italic 24px "Source Sans Pro", Helvetica, sans-serif;
+	font: 300 italic 30px "Source Sans Pro", Helvetica, sans-serif;
 	margin: 0;
+	float: right;
 }
 
 
@@ -875,10 +877,10 @@ div.nav-menu > ul {
 .nav-menu li a {
 	color: #141412;
 	display: block;
-	font-size: 15px;
+	font-size: 20px;
 	line-height: 1;
 	padding: 15px 20px;
-	text-decoration: none;
+	text-decoration: solid;
 }
 
 .nav-menu li:hover > a,
@@ -2444,6 +2446,7 @@ footer.entry-meta {
 .site-main .widget-area {
 	float: right;
 	width: 300px;
+	margin-top: 100px;
 }
 
 
@@ -2562,6 +2565,7 @@ footer.entry-meta {
 	color: #686758;
 	font-size: 14px;
 	text-align: center;
+	margin-top: 100px;
 }
 
 .site-footer .widget-area,
